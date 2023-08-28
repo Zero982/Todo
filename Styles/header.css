@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.left-section{
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-items: center;
+    font-size: 20px;
+    color:rgb(241, 229, 229);
+    max-width: 100%;
+}
+
+.right-section{
+    margin-top: 10px;
+    margin-right: 10px;
+    justify-items: center;
+    max-width: 100%;
+}
+.button{
+    height: 30px;
+    width: 200px;
+    border: none;
+    padding: none;
+    background-color: #ff8383;
+    text-decoration: underline;
+    font-size: 20px;
+    color:rgb(241, 229, 229);
+}
+.button:hover{
+    transform: scale(1.08);
+}

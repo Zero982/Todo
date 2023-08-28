@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo앱 만들기!</title>
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script defer src="./script.js"></script>
+
+</head>
+<body>
+
+    <header class ="header">
+        <div class="left-section">ToDos 앱</div>
+        <div class="right-section">
+            <button class="button">새로운 TODO 추가하기</button>
+        </div>
+    </header>
+    
+    <div class ="todo1">
+        <input type="text"  class="todo-input" placeholder="해야 할 일을 입력해주세요.">
+    </div>
+    <div class="list">
+        <ul id="add-todo" class="todo-list">
+            <li class="todo-item checked">
+                <div class="checkbox"></div>
+                <div class="todo">첫번째 일</div>
+                <button class="delBtn">x</button>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
